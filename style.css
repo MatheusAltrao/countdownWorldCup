@@ -96,17 +96,17 @@ span {
 /* animation */
 
 .content-title {
-  animation: fromTop 0.5s ease backwards;
+  animation: fromLeft 0.5s ease backwards;
   animation-delay: 0.2s;
 }
 
 #countdown {
-  animation: fromTop 0.5s ease backwards;
+  animation: fromLeft 0.5s ease backwards;
   animation-delay: 0.4s;
 }
 
 .link {
-  animation: fromTop 0.5s ease backwards;
+  animation: fromLeft 0.5s ease backwards;
   animation-delay: 0.6s;
 }
 
