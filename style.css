@@ -13,9 +13,7 @@ body {
 
   text-align: center;
 
-  overflow: hidden;
-
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
 
   background-image: linear-gradient(45deg, #047c3f, #000);
@@ -82,14 +80,23 @@ span {
 
 
 .link {
-  margin-top: 8rem;
+  margin-bottom: 2rem;
 }
 
 .link a {
   color: #F7DD43;
+
 }
 
-.message {
-
+.content-message {
   width: 290px;
+  height: 30px;
+
+}
+
+
+@media(max-width:600px) {
+  #countdown {
+    flex-direction: column;
+  }
 }
