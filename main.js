@@ -24,10 +24,14 @@ function countdown() {
   const message = document.getElementById('message')
 
 
-  if (worldCupDate == currentDate) {
+  if (currentDate > worldCupDate) {
     message.innerText = 'The world cup has already started'
-  }
 
+    daysEl.innerText = "00"
+    hoursEl.innerText = "00"
+    minutesEl.innerText = "00"
+    secondsEl.innerText = "00"
+  }
 }
 
 function formatTime(time) {
